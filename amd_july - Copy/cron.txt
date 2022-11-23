@@ -1,0 +1,9 @@
+#Add this cronjob to your crontab to execute the send sms service
+#every 10 minutes
+
+*/10 * * * * php sendsms.php
+
+#Where sendsms.php you should add the path where the file
+#is located and the file itself.
+#If php doesnt work you have to replace 'php' word with
+#the path where the php is installed in your computer
